@@ -1,0 +1,440 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "akka-cluster-demo",
+        "directory": "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo",
+        "workspaceDir": "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo",
+        "sources": [
+            "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\src\\main\\java",
+            "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\src\\main\\scala"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\target\\classes",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor-typed_2.13\\2.6.19\\akka-actor-typed_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.19\\akka-actor_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\1.0.0\\scala-java8-compat_2.13-1.0.0.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.36\\slf4j-api-1.7.36.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-cluster_2.13\\2.6.19\\akka-cluster_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-remote_2.13\\2.6.19\\akka-remote_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.19\\akka-stream_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.19\\akka-protobuf-v3_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\ssl-config-core_2.13\\0.4.3\\ssl-config-core_2.13-0.4.3.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-pki_2.13\\2.6.19\\akka-pki_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\hierynomus\\asn-one\\0.5.0\\asn-one-0.5.0.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\agrona\\agrona\\1.14.0\\agrona-1.14.0.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-coordination_2.13\\2.6.19\\akka-coordination_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.13\\2.6.19\\akka-slf4j_2.13-2.6.19.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.9\\scala-library-2.13.9.jar",
+            "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.9\\scala-library-2.13.9.jar"
+        ],
+        "out": "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\target",
+        "classesDir": "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\target\\classes",
+        "resources": [
+            "C:\\Users\\sitab\\IdeaProjects\\play-with-akka-cluster\\akka-cluster-demo\\src\\main\\resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.9",
+            "options": [
+                "-release",
+                "21"
+            ],
+            "jars": [
+                "C:\\Users\\sitab\\.m2\\repository\\org\\jline\\jline\\3.21.0\\jline-3.21.0.jar",
+                "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.9\\scala-library-2.13.9.jar",
+                "C:\\Users\\sitab\\.m2\\repository\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-compiler\\2.13.9\\scala-compiler-2.13.9.jar",
+                "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.13.9\\scala-reflect-2.13.9.jar",
+                "C:\\Users\\sitab\\.m2\\repository\\net\\java\\dev\\jna\\jna\\5.9.0\\jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "21",
+                "-source",
+                "21",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\sitab\\.jdks\\openjdk-21.0.1",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\1.0.0\\scala-java8-compat_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\1.0.0\\scala-java8-compat_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.19\\akka-stream_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.19\\akka-stream_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.9",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.9\\scala-library-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.9\\scala-library-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.36\\slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.36\\slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.19\\akka-actor_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.19\\akka-actor_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-pki_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-pki_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-pki_2.13\\2.6.19\\akka-pki_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-pki_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-pki_2.13\\2.6.19\\akka-pki_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.13\\2.6.19\\akka-slf4j_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.13\\2.6.19\\akka-slf4j_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.hierynomus",
+                    "name": "asn-one",
+                    "version": "0.5.0",
+                    "artifacts": [
+                        {
+                            "name": "asn-one",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\hierynomus\\asn-one\\0.5.0\\asn-one-0.5.0.jar"
+                        },
+                        {
+                            "name": "asn-one",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\hierynomus\\asn-one\\0.5.0\\asn-one-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor-typed_2.13\\2.6.19\\akka-actor-typed_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-actor-typed_2.13\\2.6.19\\akka-actor-typed_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-remote_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-remote_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-remote_2.13\\2.6.19\\akka-remote_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-remote_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-remote_2.13\\2.6.19\\akka-remote_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\config\\1.4.2\\config-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.3",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\ssl-config-core_2.13\\0.4.3\\ssl-config-core_2.13-0.4.3.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\ssl-config-core_2.13\\0.4.3\\ssl-config-core_2.13-0.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-cluster_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-cluster_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-cluster_2.13\\2.6.19\\akka-cluster_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-cluster_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-cluster_2.13\\2.6.19\\akka-cluster_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.19\\akka-protobuf-v3_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.19\\akka-protobuf-v3_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-coordination_2.13",
+                    "version": "2.6.19",
+                    "artifacts": [
+                        {
+                            "name": "akka-coordination_2.13",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-coordination_2.13\\2.6.19\\akka-coordination_2.13-2.6.19.jar"
+                        },
+                        {
+                            "name": "akka-coordination_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\com\\typesafe\\akka\\akka-coordination_2.13\\2.6.19\\akka-coordination_2.13-2.6.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.agrona",
+                    "name": "agrona",
+                    "version": "1.14.0",
+                    "artifacts": [
+                        {
+                            "name": "agrona",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\agrona\\agrona\\1.14.0\\agrona-1.14.0.jar"
+                        },
+                        {
+                            "name": "agrona",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sitab\\.m2\\repository\\org\\agrona\\agrona\\1.14.0\\agrona-1.14.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
